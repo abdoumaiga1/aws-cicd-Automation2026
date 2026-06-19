@@ -1,2 +1,2 @@
-FFROM --platform=linux/amd64 public.ecr.aws/docker/library/httpd:latest
+FROM --platform=linux/amd64 public.ecr.aws/docker/library/httpd:latest
 COPY . /usr/local/apache2/htdocs/
