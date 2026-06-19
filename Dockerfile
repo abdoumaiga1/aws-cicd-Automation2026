@@ -1,2 +1,2 @@
-FROM httpd:v1.0
+FROM httpd:v1.2
 COPY .  /usr/local/apache2/htdocs/
