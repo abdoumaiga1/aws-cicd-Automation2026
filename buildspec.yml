@@ -4,7 +4,7 @@ env:
   variables:
     IMAGE_REPO_NAME: "devops"
     IMAGE_TAG: "v1.0"
-    CONTAINER_NAME: "awscicd-cluster"
+    CONTAINER_NAME: "awscicd-c"
 phases:
   pre_build:
     commands:
