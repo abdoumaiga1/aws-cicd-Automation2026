@@ -1,5 +1,10 @@
 version: 0.2
 
+env:
+  variables:
+    IMAGE_REPO_NAME: "devops"
+    IMAGE_TAG: "v1.0"
+    CONTAINER_NAME: "devops"
 phases:
   pre_build:
     commands:
